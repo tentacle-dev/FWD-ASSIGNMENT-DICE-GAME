@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<h1 class="text-center text-5xl">First to 100 wins!!!</h1>
+<body class="bg-slate-900 text-white mt-24 text-center">
+    <div class="container bg-base-100">
+        <div class="flex gap-4 justify-center my-12">
+            <img class="dice" id="player1Dice" src="" alt="Player 1 Dice">
+            <img class="dice" id="player2Dice" src="" alt="Player 2 Dice">
+        </div>
+        <button class="btn bg-cyan-900 px-12 py-4 rounded-xl" id="rollDiceBtn">Roll</button>
+        <div class="my-12">
+            <div class="player" id="player1">
+                <p>Player 1 Score: <span id="player1Score">0</span></p>
+            </div>
+            <div class="player" id="player2">
+                <p>Player 2 Score: <span id="player2Score">0</span></p>
+            </div>
+        </div>
+
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
